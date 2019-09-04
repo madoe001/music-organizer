@@ -13,5 +13,6 @@ const musicRoutes: Routes = [
   exports: [
     RouterModule
   ]
+
 })
 export class MusicRoutingModule { }

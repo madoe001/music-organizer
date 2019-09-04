@@ -1,3 +1,3 @@
-<p>
-  music-overview-list works!
-</p>
+<ul class="list-group">
+  <li app-music-overview-list-item *ngFor="let track of tracks$ | async" [track]="track" class="list-group-item"></li>
+</ul>

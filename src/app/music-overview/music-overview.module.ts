@@ -1,3 +1,4 @@
+import { HttpClient } from '@angular/common/http';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { MusicOverviewComponent } from './music-overview/music-overview.component';
@@ -13,7 +14,7 @@ import { MusicRoutingModule } from './music-overview-routing.module';
   ],
   imports: [
     CommonModule,
-    MusicRoutingModule
+    MusicRoutingModule,
   ]
 })
 export class MusicOverviewModule { }

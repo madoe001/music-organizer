@@ -1,3 +1,4 @@
+import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { SiteNavigationComponent } from './site-navigation/site-navigation.component';
@@ -11,7 +12,8 @@ import { SiteNavigationListItemComponent } from './site-navigation-list-item/sit
     SiteNavigationListItemComponent
   ],
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule
   ],
   exports: [
     SiteNavigationComponent
